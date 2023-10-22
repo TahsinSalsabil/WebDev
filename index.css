@@ -1,0 +1,72 @@
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-weight: lighter;
+  color: rgb(60, 117, 196);
+}
+
+.form-box {
+  width: 400px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.form-info {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.form-info.hidden {
+  display: none;
+}
+
+form input {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #ccc; 
+  margin-bottom: 1.2rem;  
+}
+
+.submit-button {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(60, 117, 196);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 200px; 
+}
+
+
+.cancel-button {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(218, 214, 214);
+  color: rgb(65, 63, 63);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submissions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-message {
+  color: rgb(60, 117, 196); 
+  font-weight: bold; 
+  text-align: center; 
+  margin-top: 20px; 
+  border:rgb(60, 117, 196);
+  font-weight: bold;
+}
+
